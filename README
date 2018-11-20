@@ -1,0 +1,19 @@
+Written by Lukas Hennicks 20/11 2018
+lukashen@kth.se
+
+
+Compiled using gcc.
+Run the makefile.
+Run ./send_packet with options:
+	-d: destination address
+	-s: source address
+	-i: identification
+	-v: version
+	-f: flags
+	-o: offset
+	-t: ttl
+	-p: protocol
+
+Write the payload you want to send to stdin manually or pipe it.
+
+Max payload size on this version is 4076. You can easily hack the code and change it if you feel the need.
