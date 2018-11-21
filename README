@@ -16,6 +16,6 @@ Run ./send_packet with options:
 
 Write the payload you want to send to stdin manually or pipe it.
 
-Don't forget that the payload must be encapsulated in its own header (usually ethernet)
+Don't forget that the payload must be encapsulated in its own header(s).
 
 Max payload size on this version is 4076. You can easily hack the code and change it if you feel the need.
