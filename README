@@ -3,6 +3,8 @@ lukashen@kth.se
 
 
 Compiled using gcc.
+
+Change the IFACE_IP macro in packet_maker.c to your interface of choices ip.
 Run the makefile.
 Run ./send_packet with options:
 	-d: destination address
@@ -18,4 +20,4 @@ Write the payload you want to send to stdin manually or pipe it.
 
 Don't forget that the payload must be encapsulated in its own header(s).
 
-Max payload size on this version is 4076. You can easily hack the code and change it if you feel the need.
+Max payload size on this version is 64. You can easily change it with the DG_BUFFER macro in packet_maker.c if you feel the need.

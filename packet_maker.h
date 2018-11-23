@@ -5,7 +5,7 @@
 #include <stdlib.h> // For exit()
 #include <string.h> // Memset
 #include <sys/socket.h> // For socket
-#include <netinet/ip.h> // For sockaddr_in
+#include <netinet/in.h> // For sockaddr_in on other platforms than osx.
 #include <arpa/inet.h> // For inet_addr function
 #include <unistd.h>
 #include <stdint.h> // for u_intX_t etc.
